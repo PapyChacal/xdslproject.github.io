@@ -19,7 +19,7 @@ hero: true
 
 <div class="container" style="">
   <div style="height: 100em">
-  <iframe style="border: 0px" scrolling="no" onload="resizeIframe(this)" height="100%" width="100%" src="https://xdsl.dev/xdsl/retro/notebooks/?path=database_example.ipynb"></iframe>
+  <iframe style="border: 0px" scrolling="no" onload="this.contentWindow.jupyterapp.commands.execute('application:toggle-zen')" height="100%" width="100%" src="https://papychacal.github.io/xdslproject.github.io/retro/notebooks/?path=database_example.ipynb"></iframe>
   </div>
   <br>
   <br>
